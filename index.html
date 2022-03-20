@@ -22,30 +22,27 @@
     <!-- search function -->
     <div class="container">
         <div class="row">
-            <div class="col-sm-2">
+            <div class="col-sm-3">
                 <h4 class="pt-2">City Search:</h4>
                 <div class="input-group mb-3">
                     <input type="text" class="form-control" id="city-search">
                     <div class="input-group-append">
-                        <button class="btn" id="search-button" onclick="getCoordinates()"><i
-                                class="fas fa-search"></i>Search</button>
+                        <button class="btn" id="search-button"><i class="fas fa-search"></i>Search</button>
                     </div>
                 </div>
                 <!-- list of searched cities -->
-                <div class="card">
-                    <div class="card-body">
-                        <ul class="list-group-flush" id="city-list">
-                            <li class="list-group-item"></li>
-                        </ul>
-                    </div>
-                </div>
+
+                <ul class="list-group" id="city-list">
+
+                </ul>
+
                 <!-- clear button -->
                 <button class="btn btn-primary mt-3" type="button" id="clear">Clear History</button>
             </div>
 
             <!-- info for current city -->
 
-            <div class="col-sm-10 mt-3">
+            <div class="col-sm-9 mt-3">
                 <!-- <div class="row-sm-10 mx-2"> -->
                 <div class="col-6 mx-2" id="current-weather">
                     <p class="name" id="current-city"></p>

@@ -19,4 +19,4 @@ https://toddbauer86.github.io/WeatherApp/
 https://github.com/toddbauer86/WeatherApp
 
 ## Screenshot
-https://github.com/toddbauer86/WeatherApp/assets/images/ss.png
+https://github.com/toddbauer86/WeatherApp/blob/main/assets/images/ss.png

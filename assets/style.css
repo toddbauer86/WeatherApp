@@ -17,7 +17,7 @@ body {
 
 .forecastCard {
   margin-left: 10px;
-  padding: 25px;
+  padding: 5px;
   border: solid grey 2px;
   background-image: url("./images/blue3.png");
 }
